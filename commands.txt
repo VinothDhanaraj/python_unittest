@@ -1,0 +1,36 @@
+python  unittestsample.py -v
+
+python unittest_assertequal.py -v
+
+python unittest_assertnequal.py -v
+
+python unittest_asserttrue.py -v
+python unittest_assertFalse.py -v
+python unittest_assertIs.py -v
+python unittest_assertIsNot.py -v
+python unittest_assertIsNone.py -v
+python unittest_assertIn.py -v
+python unittest_assertNotIn.py -v
+python unittest_assertIsInstance.py -v
+python unittest_assertNotIsInstance.py -v
+python unittest_assertRaises.py -v
+python unittest_assertRaisesRegex.py -v
+
+python unittest_assertLogs.py -v
+
+
+#used for running entire files/modules
+python -m unittest unittestsample unittest_assertequal unittest_assertnequal
+
+#To Run all the test
+python -m unittest discover -p "unittest_*.py" -v
+
+Exception
+
+
+
+python -m unittest discover D:\UNIT_TESTING\python_unit_testing\unittest_framework\python_unittest
+# or
+python -m unittest discover -s "D:\UNIT_TESTING\python_unit_testing\unittest_framework\python_unittest" -p 'test_*.py'
+
+

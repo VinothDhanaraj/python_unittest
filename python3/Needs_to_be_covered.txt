@@ -1,0 +1,12 @@
+assertWarns
+assertRaisesRegex
+assertWarnsRegex
+assertLogs
+assertNoLogs
+assertGreater(a, b)
+assertGreaterEqual(a, b)
+assertLess(a, b)
+assertLessEqual(a, b)
+assertRegex(s, r)
+assertNotRegex(s, r)
+assertCountEqual(a, b)
